@@ -1,0 +1,43 @@
+.nana{
+    background: linear-gradient(to right , rgb(160, 75, 75) , rgb(155, 163, 45) , rgb(191, 142, 50))
+}
+
+.navigation_links{
+    /* display: flex;    */
+    gap: 82%;
+}
+    
+.tog{
+    position: absolute;
+    left:85%;
+}
+.mainSec{
+    background: linear-gradient(45deg, purple 20% , rgb(25, 25, 172) 50% ,rgba(45, 31, 31, 0.929) );
+    margin-top: 0;
+    color: white;
+    height: auto;
+
+}
+.shadow{
+    box-shadow: 10px 10px 10px  gray;
+}
+.animat{
+    animation: floating 3s ease-in-out infinite;
+}
+.animatio{
+    animation: card 4s ease-in-out infinite;
+}
+@keyframes floating {
+    0% {transform: translateY(0px) translateX(0px) }
+    25% {transform: translateY(-5px) translateX(-2px)}
+    50% {transform: translateY(-2px) translateX(2px)}
+    75% {transform: translateY(5px) translateX(-3px)}
+    100% {transform: translateY(0px) translateX(0px)}
+}
+@keyframes card {
+    0% {transform: translateY(0px) translateX(0px) }
+    25% {transform: translateY(5px) translateX(2px)}
+    50% {transform: translateY(2px) translateX(-2px)}
+    75% {transform: translateY(-5px) translateX(3px)}
+    100% {transform: translateY(0px) translateX(0px)}
+}
