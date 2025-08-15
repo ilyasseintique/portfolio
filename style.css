@@ -25,7 +25,11 @@
 
 }
 .shadow{
-    box-shadow: 10px 10px 10px  gray;
+    margin-top: 50px;
+    transition: transform 1s ease-in-out;
+}
+.shadow:hover{
+    transform: rotate(1.6deg) scale(1.08);
 }
 .animat{
     animation: floating 3s ease-in-out infinite;
@@ -52,6 +56,8 @@
     text-align: center; 
     margin: 20px; 
     font-weight: bold;
+    animation: shining 6s infinite;
+
 }
 h6{
     font-size: larger;
@@ -59,4 +65,25 @@ h6{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-left: 4px solid rgb(50, 196, 225) ;
     padding-left: 6px;
+}
+.madebyilyassemargin{
+    margin-left: 85%;
+}
+
+@keyframes shining {
+    0%, 40%, 80%, 100%{
+        text-shadow: none; 
+    } 
+    20%, 60%, 81%  {
+        text-shadow: 0 0 10px white,
+                    0 0 20px white,
+                    0 0 30px rgb(191, 104, 235),
+                    0 0 40px rgb(191, 104, 235),
+                    0 0 50px rgb(191, 104, 235)
+    }
+}
+@media screen and (max-width:780px){
+    .madebyilyassemargin{
+        margin-left: 50%;   
+    }
 }
