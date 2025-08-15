@@ -1,7 +1,12 @@
 .nana{
     background: linear-gradient(to right , rgb(160, 75, 75) , rgb(155, 163, 45) , rgb(191, 142, 50))
 }
-
+.intro_section{
+    background-color: rgba(207, 197, 197, 0.765);
+    border-radius: 50px;
+    opacity:90%;
+    position: relative;
+}
 .navigation_links{
     /* display: flex;    */
     gap: 82%;
@@ -40,4 +45,9 @@
     50% {transform: translateY(2px) translateX(-2px)}
     75% {transform: translateY(-5px) translateX(3px)}
     100% {transform: translateY(0px) translateX(0px)}
+}
+.h1styling{
+    text-align: center; 
+    margin: 20px; 
+    font-weight: bold;
 }
