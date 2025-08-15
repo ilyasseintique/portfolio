@@ -11,7 +11,7 @@
 }
 .navigation_links{
     display: flex ;
-    gap: 50%;
+    gap: 40%;
 }
 .tog{
     position: absolute;
