@@ -1,17 +1,18 @@
 .nana{
-    background: linear-gradient(to right , rgb(160, 75, 75) , rgb(155, 163, 45) , rgb(191, 142, 50))
+    background: linear-gradient(to right , rgb(160, 75, 75) , rgb(72, 73, 50) , rgb(191, 142, 50));
+    opacity: 80%;
+    font-weight: bold;
+    
 }
 .intro_section{
-    background-color: rgba(207, 197, 197, 0.765);
+    background-color: rgb(255, 255, 255,0.1);
+    /* backdrop-filter: blur(10px); */
     border-radius: 50px;
-    opacity:90%;
-    position: relative;
 }
 .navigation_links{
-    /* display: flex;    */
-    gap: 82%;
+    display: flex ;
+    gap: 50%;
 }
-    
 .tog{
     position: absolute;
     left:85%;
@@ -32,6 +33,7 @@
 .animatio{
     animation: card 4s ease-in-out infinite;
 }
+
 @keyframes floating {
     0% {transform: translateY(0px) translateX(0px) }
     25% {transform: translateY(-5px) translateX(-2px)}
@@ -50,4 +52,11 @@
     text-align: center; 
     margin: 20px; 
     font-weight: bold;
+}
+h6{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 4px solid rgb(50, 196, 225) ;
+    padding-left: 6px;
 }
